@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <header class="header">
+  <div class="nav-container">
+    <div class="logo">
+      <a href="./index.html"><span>SI</span>IT</a>
+    </div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+    <nav class="nav-links">
+      <a href="./about.html">About</a>
+      <a href="./admission.html">Admission</a>
+     <div class="dropdown">
+          <button class="dropdown-btn" onclick="toggleDropdown(event)">
+            Programs <span class="arrow">▾</span>
+          </button>
+
+          <div class="dropdown-menu">
+            <a href="./programs.html">Vocational Program</a>
+            <a href="./iti.html">ITI</a>
+          </div>
+        </div>
+      <a href="./syllbus.html">Syllabus</a>
+      <a href="./events.html">News & Events</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+ <section class="voc-hero">
+        <div class="overlay"></div>
+
+        <div class="about-content">
+            <h1>
+Vocational Programs</h1>
+            <p>
+               
+Empowering Careers with Industry-Focused Education
+            </p>
+            <p>At SIIT 2.0, we offer a wide range of vocational, diploma, degree, and certification programs designed to equip students with real-world skills and industry expertise. Our hybrid learning model blends theoretical knowledge with hands-on training, ensuring our graduates are job-ready.</p>
+        </div>
+    </section>
+
+
+<section class="courses-section">
+  <span class="sub-title">START LEARNING TODAY</span>
+  <h2 class="main-heading">
+    Start Your Career By <br />
+    <span>Learning Our Courses</span>
+  </h2>
+
+  <div class="courses-grid">
+
+    <!-- Course 1 -->
+    <div class="course-card">
+      <div class="course-img bvoc">
+        <span class="price">UG / Diploma</span>
+      </div>
+      <div class="course-content">
+        
+        <h3><a href="./bvoc.html" class="single-course">B.Voc & D.Voc</a></h3>
+        <p>
+          Industry-oriented Bachelor & Diploma of Vocation programmes
+          focusing on practical skills, employability, and career readiness.
+        </p>
+      </div>
+    </div>
+
+    <!-- Course 2 -->
+    <div class="course-card">
+      <div class="course-img short-term">
+        <span class="price">Short Term</span>
+      </div>
+      <div class="course-content">
+        
+        <h3><a href="./short.html" class="single-course">Short-Term Certification Programmes</a></h3>
+        <p>
+          Skill-focused certification courses designed for quick learning,
+          upskilling, and immediate career opportunities.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    <section class="apply-container">
+  <div class="content-side">
+    
+    <h1 class="main-title">To apply for admission to Learn 2 Win, follow these steps:</h1>
+    
+    <div class="text-content">
+      <p>
+        1. Eligibility Check: Ensure you meet the eligibility criteria for your chosen program.
+      </p>
+      <p>2. Online Application: Submit your application through our website.</p>
+      <p>3. Document Submission: Upload required documents, such as academic certificates, ID proof, and photographs.</p>
+      <p>4. Counseling Session: Attend a counseling session with our admissions team.</p>
+      <p>5. Admission Confirmation: Receive admission confirmation and complete the enrollment process.</p>
+    </div>
+  </div>
+
+  <div class="image-side">
+    <img src="./images/apply.jpg" alt="Students studying together outdoors">
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- BRAND -->
+    <div class="footer-col">
+       <div class="logo">
+      <span>SI</span>IT
+    </div>
+      <p>
+      "Learn, Grow, Achieve: The SIIT Way"
+      </p>
+
+      <div class="socials">
+        <a href="https://www.facebook.com/siitonline/"><i class="fa fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/siitinstitutions/"><i class="fa fa-instagram"></i></a>
+        <a href="mailto:info@mysite.com"><i class="fa fa-envelope"></i></a>
+        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+        
+      </div>
+    </div>
+
+    <!-- ADDRESS -->
+    <div class="footer-col">
+      <h3>Address</h3>
+      <ul class="footer-list">
+        <li>📍 2 nd Floor, SIIT Building, SH15, Near Govt. Hospital,Thalayolaparambu, Kottayam,Kerala 686605</li>
+        <li>📞  +91 79027 99418</li>
+        <li>✉ support@siit.com</li>
+      </ul>
+    </div>
+
+    <!-- COURSES -->
+    <div class="footer-col">
+      <h3>Courses</h3>
+      <ul class="footer-links">
+        <li><a href="#">Programs</a></li>
+        <li><a href="#">Admission</a></li>
+        <li><a href="#">Syllabus</a></li>
+        <li><a href="#">News & Events</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+
+    <!-- RECENT POSTS -->
+    <div class="footer-col">
+      <h3>Recent Posts</h3>
+
+      <div class="post">
+        <!-- <img src="./images/post1.jpg" alt=""> -->
+        <div>
+          <a href="#">Learn with Joy: Happy Tuition Services Now Available!</a>
+          <span>📅 Monday, 2 June 2025</span>
+        </div>
+      </div>
+
+      <div class="post">
+        <!-- <img src="./images/post2.jpg" alt=""> -->
+        <div>
+          <a href="#">"SIIT's Learn 2 Win Revolutionizes Education in Kerala"</a>
+          <span>📅 Thursday, 1 May 2025</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 SIIT. All Rights Reserved.
+  </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>

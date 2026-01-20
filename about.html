@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+               <a href="./index.html"><span>SI</span>IT</a>
+            </div>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+            <nav class="nav-links">
+                <a href="#">About</a>
+                <a href="./admission.html">Admission</a>
+              <div class="dropdown">
+          <button class="dropdown-btn" onclick="toggleDropdown(event)">
+            Programs <span class="arrow">▾</span>
+          </button>
+
+          <div class="dropdown-menu">
+            <a href="./programs.html">Vocational Program</a>
+            <a href="./iti.html">ITI</a>
+          </div>
+        </div>
+                <a href="./syllbus.html">Syllabus</a>
+                <a href="./events.html">News & Events</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about-hero">
+        <div class="overlay"></div>
+
+        <div class="about-content">
+            <h1>About Us – SIIT 2.0</h1>
+            <p>
+                Empowering Careers Through Industry-Driven Education
+            </p>
+        </div>
+    </section>
+
+
+    <section class="intro-section">
+        <p class="subtitle">THE MODERN WAY TO LEARN!</p>
+
+        <h2 class="title">
+            SIIT 2.0 is a next-generation EdTech institution with 27+ years of excellence,
+            delivering industry-ready programs through hybrid learning,
+            AI-powered education, and hands-on training.
+        </h2>
+    </section>
+
+
+    <section class="about-compact">
+        <!-- Image -->
+        <div class="about-img">
+            <img src="./images/mission.jpg" alt="SIIT Training" />
+        </div>
+
+        <!-- Content -->
+        <div class="about-content">
+            <h3>Our Mission</h3>
+            <p>To provide innovative, career-focused education that ensures students
+                gain relevant skills, real-world experience, and strong industry connections.</p>
+            <br><br>
+            <h3>Our Vision</h3>
+            <p>
+                Our Vision
+
+                To revolutionize education by integrating technology, industry partnerships,
+                and practical training to empower students for the future.</p>
+        </div>
+    </section>
+
+   
+
+    <section class="reviews-section">
+        <h2 class="section-title">Alumni</h2>
+        <p class="section-tag">
+            Connecting Success, Inspiring Futures</p>
+        <p class="section-tag">
+            At SIIT 2.0, our alumni are a testament to our commitment to excellence in education and industry-driven
+            training. With over 25,000+ graduates spread across 100+ countries, our alumni community is thriving in
+            various fields,
+            including IT, Healthcare, Business, Design, and Industrial Technology.</p>
+
+        <div class="reviews-scroll">
+
+            <div class="review-card">
+                <p class="review-text">
+                   "I completed my ITI Instrumentation course from SIIT and I'm thoroughly satisfied with the training I received. The faculty was knowledgeable and the practical sessions were extremely helpful"
+                </p>
+                <h4>Aravind Gopan</h4>
+                <span>Dubai</span>
+               
+            </div>
+
+            <div class="review-card">
+                <p class="review-text">
+                   
+"I was a bit skeptical about pursuing an electrical trade course, but the institution's experienced faculties and state-of-the-art lab facilities made all the diffrence. I'm now confident in my abilities to work with electrical
+                </p>
+                <h4>Ajil Vijayan</h4>
+                <span>Kuwait</span>
+                
+            </div>
+
+            <div class="review-card">
+                <p class="review-text">
+                   "The MLT course at this institution was a great learning experience. The faculty was knowledgeable and the lab facilities were state-of-the-art."
+                </p>
+                <h4>Nithya Prasad</h4>
+                <span>Lab Assistant</span>
+                
+            </div>
+
+            <div class="review-card">
+                <p class="review-text">
+                   "Overall, I had a fantastic experience at siit institution. The curriculum was well-structured and engaging, and the instructors were knowledgeable and approachable. The facilities are modern and well-maintained, and the campus environment fosters a sense of community. I highly recommend this institute to anyone seeking a quality education."
+                </p>
+                <h4>Uthara</h4>
+                
+            </div>
+
+            <div class="review-card">
+                <p class="review-text">
+                    
+"Amazing place for work integrated courses,Online mode of learning is also very effective."
+                </p>
+                <h4>Sreelakshmi Sujith</h4>
+               
+            </div>
+
+        </div>
+    </section>
+
+ <section class="gallery-section">
+        <h1>Gallery</h1>
+        <div class="gallery-grid">
+
+            <div class="gallery-item">
+                <img src="./images/g1.jpeg" alt="Lab Training">
+            </div>
+
+            <div class="gallery-item">
+                <img src="./images/g2.jpeg" alt="Students Training">
+            </div>
+
+            <div class="gallery-item">
+                <img src="./images/g3.jpeg" alt="Workshop">
+            </div>
+
+            <div class="gallery-item">
+                <img src="./images/g4.jpeg" alt="Industrial Training">
+            </div>
+
+            <div class="gallery-item">
+                <img src="./images/g5.jpeg" alt="Classroom">
+            </div>
+
+            <div class="gallery-item">
+                <img src="./images/g6.jpeg" alt="Hands-on Session">
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- BRAND -->
+            <div class="footer-col">
+                <div class="logo">
+                    <span>SI</span>IT
+                </div>
+                <p>
+                    "Learn, Grow, Achieve: The SIIT Way"
+                </p>
+
+                <div class="socials">
+                    <a href="https://www.facebook.com/siitonline/"><i class="fa fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/siitinstitutions/"><i class="fa fa-instagram"></i></a>
+                    <a href="mailto:info@mysite.com"><i class="fa fa-envelope"></i></a>
+                    <a href="#"><i class="fa fa-linkedin-square"></i></a>
+
+                </div>
+            </div>
+
+            <!-- ADDRESS -->
+            <div class="footer-col">
+                <h3>Address</h3>
+                <ul class="footer-list">
+                    <li>📍 2 nd Floor, SIIT Building, SH15, Near Govt. Hospital,Thalayolaparambu, Kottayam,Kerala 686605
+                    </li>
+                    <li>📞 +91 79027 99418</li>
+                    <li>✉ support@siit.com</li>
+                </ul>
+            </div>
+
+            <!-- COURSES -->
+            <div class="footer-col">
+                <h3>Courses</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Admission</a></li>
+                    <li><a href="#">Syllabus</a></li>
+                    <li><a href="#">News & Events</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+
+            <!-- RECENT POSTS -->
+            <div class="footer-col">
+                <h3>Recent Posts</h3>
+
+                <div class="post">
+                    <!-- <img src="./images/post1.jpg" alt=""> -->
+                    <div>
+                        <a href="#">Learn with Joy: Happy Tuition Services Now Available!</a>
+                        <span>📅 Monday, 2 June 2025</span>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <!-- <img src="./images/post2.jpg" alt=""> -->
+                    <div>
+                        <a href="#">"SIIT's Learn 2 Win Revolutionizes Education in Kerala"</a>
+                        <span>📅 Thursday, 1 May 2025</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 SIIT. All Rights Reserved.
+        </div>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

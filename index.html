@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Educavo Style Header</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header class="header">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="#"><span>SI</span>IT</a>
+      </div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+      <nav class="nav-links">
+        <a href="./about.html">About</a>
+        <a href="./admission.html">Admission</a>
+
+
+
+        <div class="dropdown">
+          <button class="dropdown-btn" onclick="toggleDropdown(event)">
+            Programs <span class="arrow">▾</span>
+          </button>
+
+          <div class="dropdown-menu">
+            <a href="./programs.html">Vocational Program</a>
+            <a href="./iti.html">ITI</a>
+          </div>
+        </div>
+
+
+        <a href="./syllbus.html">Syllabus</a>
+        <a href="./events.html">News & Events</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h1>SIIT 2.0</h1>
+    <p>Discover a world of opportunities as SIIT 2.0 guides you towards a successful career. <br>
+      We are a pioneering educational institution bridging the gap between academia and industry,
+      empowering learners with real-world skills and hands-on experience.</p>
+
+
+    <!-- Animated Middle Section -->
+    <!-- <div class="animated-center">
+    <img src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png" alt="Training Illustration">
+  </div> -->
+  </section>
+
+  <section class="about-section">
+    <div class="about-container">
+
+      <!-- LEFT CONTENT -->
+      <div class="about-left">
+        <span class="subtitle">
+          About SIIT 2.0</span>
+        <h2>
+          Develop Your Skills <br />
+          Shine Your Life
+        </h2>
+        <a href="#" class="btn">READ MORE</a>
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="about-right">
+        <div class="text-block">
+          <p>
+            With 27 years of academic excellence, SIIT 2.0 offers vocational and
+            degree programs in fields like IT, Healthcare, Hospitality, Business, and Design.
+            Our curriculum is industry-aligned, ensuring that every student
+            graduates with the expertise needed to excel in today’s competitive job market.
+          </p>
+          <div class="dots"></div>
+        </div>
+
+        <div class="text-block">
+          <p>
+            Our programs span IT, Healthcare, Hospitality, Business, and Design—each carefully designed to
+            balance theory and hands-on learning.
+          <ul class="list-about">
+            <li>Flexible Learning: Study online, on-campus, or both with our hybrid model.</li>
+            <li>Practical Training: Enjoy 70% hands-on learning for real-world exposure.</li>
+            <li>Recognized Credentials: Partnered with NAAC A++ universities for accredited certifications.</li>
+          </ul>
+          </p>
+          <div class="dots"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="services-header">
+      <div>
+        <h2>Program Highlights</h2>
+        <span class="subtitle">Explore our diverse courses designed to make you job-ready in the evolving industry
+          landscape</span>
+
+      </div>
+
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-card">
+        <img src="./images/innovative.png" alt="Web Development">
+        <h3>Innovative Learning Model</h3>
+        <p>Our hybrid training approach combines 50% hands-on practical learning with 50% theoretical knowledge,
+          supported by an AI-powered LMS that personalizes learning for each student. The program integrates online
+          classes, offline sessions,
+          and industry internships to deliver a well-rounded, industry-ready learning experience.</p>
+      </div>
+
+      <div class="service-card ">
+        <img src="./images/image.png" alt="Business Studies">
+        <h3>Industry & Academic Excellence
+
+        </h3>
+        <p>Our industry-aligned curriculum is designed in collaboration with experts to meet current market demands,
+          supported by accredited university partnerships with Guru Kashi University, Glocal University, and Asian
+          International University. Learning is further strengthened through industrial collaborations that provide
+          hands-on training with ABB, Yokogawa, KPPL, and FACT.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="./images/scalable.png" alt="General Education">
+        <h3>Scalable Growth & Proven Legacy</h3>
+        <p>With a 27+ year legacy of excellence, we have trained 25,000+ students and enabled 20,000+ successful
+          placements. Our vision includes franchise expansion with 25+ new study centers, driving scalable growth, while
+          focusing on practical skill development that bridges education and employment, ensuring high ROI for learners.
+        </p>
+      </div>
+
+
+
+    </div>
+  </section>
+  <section class="partners">
+    <div class="partners-container">
+
+      <h2 class="section-title">Key Partners & Accreditations</h2>
+
+      <div class="partners-grid">
+
+        <a href="https://glocaluniversity.edu.in/" target="_blank" class="partner-card">
+          <img src="./images/log1.png" alt="Glocal University">
+          <span>glocaluniversity.edu.in</span>
+        </a>
+
+        <a href="https://aiu.edu.in/" target="_blank" class="partner-card">
+          <img src="./images/log2.jpg" alt="Asian International University">
+          <span>aiu.edu.in</span>
+        </a>
+
+        <a href="https://ncvtmis.gov.in/" target="_blank" class="partner-card">
+          <img src="./images/log3.png" alt="NCVT MIS">
+          <span>ncvtmis.gov.in</span>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="contact-container">
+
+      <!-- LEFT : MAP -->
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.613240675387!2d76.453024!3d9.782979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0878754141cf99%3A0x35627578ea7b327c!2sSIIT%20Building%2C%20Thalayolaparambu!5e0!3m2!1sen!2sin!4v1700000000000"
+          loading="lazy" style="border:0; border-radius:8px;" allowfullscreen="">
+        </iframe>
+      </div>
+
+
+      <!-- RIGHT : FORM -->
+      <div class="contact-form">
+        <h2>Get in Touch</h2>
+        <p>
+          Have some suggestions or just want to say hi?
+          Our support team is ready to help you.
+        </p>
+
+        <form>
+          <div class="form-row">
+            <input type="text" placeholder="First Name" required />
+            <input type="text" placeholder="Last Name" required />
+          </div>
+
+          <div class="form-row">
+            <input type="email" placeholder="Email" required />
+            <input type="tel" placeholder="Phone" required />
+          </div>
+
+          <textarea placeholder="Message" rows="5" required></textarea>
+
+          <button type="submit" class="form-btn">SUBMIT</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- BRAND -->
+      <div class="footer-col">
+        <div class="logo">
+          <span>SI</span>IT
+        </div>
+        <p>
+          "Learn, Grow, Achieve: The SIIT Way"
+        </p>
+
+        <div class="socials">
+          <a href="https://www.facebook.com/siitonline/"><i class="fa fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/siitinstitutions/"><i class="fa fa-instagram"></i></a>
+          <a href="mailto:info@mysite.com"><i class="fa fa-envelope"></i></a>
+          <a href="#"><i class="fa fa-linkedin-square"></i></a>
+
+        </div>
+      </div>
+
+      <!-- ADDRESS -->
+      <div class="footer-col">
+        <h3>Address</h3>
+        <ul class="footer-list">
+          <li>📍 2 nd Floor, SIIT Building, SH15, Near Govt. Hospital,Thalayolaparambu, Kottayam,Kerala 686605</li>
+          <li>📞 +91 79027 99418</li>
+          <li>✉ support@siit.com</li>
+        </ul>
+      </div>
+
+      <!-- COURSES -->
+      <div class="footer-col">
+        <h3>Courses</h3>
+        <ul class="footer-links">
+          <li><a href="#">Programs</a></li>
+          <li><a href="#">Admission</a></li>
+          <li><a href="#">Syllabus</a></li>
+          <li><a href="#">News & Events</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+
+      <!-- RECENT POSTS -->
+      <div class="footer-col">
+        <h3>Recent Posts</h3>
+
+        <div class="post">
+          <!-- <img src="./images/post1.jpg" alt=""> -->
+          <div>
+            <a href="#">Learn with Joy: Happy Tuition Services Now Available!</a>
+            <span>📅 Monday, 2 June 2025</span>
+          </div>
+        </div>
+
+        <div class="post">
+          <!-- <img src="./images/post2.jpg" alt=""> -->
+          <div>
+            <a href="#">"SIIT's Learn 2 Win Revolutionizes Education in Kerala"</a>
+            <span>📅 Thursday, 1 May 2025</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 SIIT. All Rights Reserved.
+    </div>
+  </footer>
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
