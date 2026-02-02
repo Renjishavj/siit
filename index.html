@@ -192,21 +192,26 @@
           Our support team is ready to help you.
         </p>
 
-        <form>
-          <div class="form-row">
-            <input type="text" placeholder="First Name" required />
-            <input type="text" placeholder="Last Name" required />
-          </div>
+        <form action="https://formspree.io/f/xnjzbwjy" method="POST">
 
-          <div class="form-row">
-            <input type="email" placeholder="Email" required />
-            <input type="tel" placeholder="Phone" required />
-          </div>
+  <!-- Optional subject line in email -->
+  <input type="hidden" name="_subject" value="New Contact Form Submission">
 
-          <textarea placeholder="Message" rows="5" required></textarea>
+  <div class="form-row">
+    <input type="text" name="firstName" placeholder="First Name" required />
+    <input type="text" name="lastName" placeholder="Last Name" required />
+  </div>
 
-          <button type="submit" class="form-btn">SUBMIT</button>
-        </form>
+  <div class="form-row">
+    <input type="email" name="email" placeholder="Email" required />
+    <input type="tel" name="phone" placeholder="Phone" required />
+  </div>
+
+  <textarea name="message" placeholder="Message" rows="5" required></textarea>
+
+  <button type="submit" class="form-btn">SUBMIT</button>
+</form>
+
       </div>
 
     </div>
