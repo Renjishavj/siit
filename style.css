@@ -2292,3 +2292,48 @@ textarea:focus {
     font-size: 22px;
   }
 }
+
+/* contact */
+
+.floating-contact{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 9999;
+}
+
+/* Common style */
+.floating-contact a{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    color: white;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+/* Call button */
+.call-btn{
+    background: #007bff;
+}
+
+.call-btn:hover{
+    transform: scale(1.1);
+}
+
+/* WhatsApp button */
+.whatsapp-btn{
+    background: #25D366;
+}
+
+.whatsapp-btn:hover{
+    transform: scale(1.1);
+}
