@@ -161,43 +161,48 @@ SIIT Building, SH15, Thalayolaparambu, Kerala 686605
 </section>
 
 <section class="form-section compact">
-  <form class="contact-form">
+<form class="contact-form"
+      action="https://formspree.io/f/mlglwvry"
+      method="POST">
 
-    <div class="form-row">
-      <input type="text" placeholder="First Name" required />
-      <input type="text" placeholder="Last Name" required />
-    </div>
+  <input type="hidden" name="_subject" value="New Student Enquiry">
 
-    <input type="text" placeholder="Address" class="full-width" required />
+  <div class="form-row">
+    <input type="text" name="firstName" placeholder="First Name" required />
+    <input type="text" name="lastName" placeholder="Last Name" required />
+  </div>
 
-    <div class="form-row">
-      <input type="tel" placeholder="Phone" required />
-      <input type="email" placeholder="Email" required />
-    </div>
+  <input type="text" name="address" placeholder="Address" class="full-width" required />
 
-    <div class="form-row">
-      <select required>
-        <option value="">Grade</option>
-        <option>8</option>
-        <option>9</option>
-        <option>10</option>
-        <option>11</option>
-        <option>12</option>
-      </select>
+  <div class="form-row">
+    <input type="tel" name="phone" placeholder="Phone" required />
+    <input type="email" name="email" placeholder="Email" required />
+  </div>
 
-      <select>
-        <option value="">Gender</option>
-        <option>Male</option>
-        <option>Female</option>
-        <option>Other</option>
-      </select>
-    </div>
+  <div class="form-row">
+    <select name="grade" required>
+      <option value="">Grade</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+      <option>11</option>
+      <option>12</option>
+    </select>
 
-    <textarea placeholder="Comments" rows="3"></textarea>
+    <select name="gender">
+      <option value="">Gender</option>
+      <option>Male</option>
+      <option>Female</option>
+      <option>Other</option>
+    </select>
+  </div>
 
-    <button type="submit">Submit</button>
+  <textarea name="comments" placeholder="Comments" rows="3"></textarea>
 
-  </form>
+  <button type="submit">Submit</button>
+
+</form>
+
 </section>
 
 
