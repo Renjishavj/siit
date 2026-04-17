@@ -11,34 +11,52 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="nav-container">
-            <div class="logo">
-               <a href="./index.html"><span>SI</span>IT</a>
-            </div>
+ <header class="header">
+   
+    <div class="nav-container">
+      <!-- <div class="logo" style="visibility: hidden;">
+        <a href="#"><span>SI</span>IT</a>
 
-            <input type="checkbox" id="menu-toggle">
-            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      </div> -->
 
-            <nav class="nav-links">
-                <a href="#">About</a>
-                <a href="./admission.html">Admission</a>
-              <div class="dropdown">
-          <button class="dropdown-btn" onclick="toggleDropdown(event)">
-            Programs <span class="arrow">▾</span>
+       <div class="nav-prim">
+      <a href="./index.html" class="logo-link">
+        <img src="./images/siit.png" alt="SIIT Logo">
+      </a>
+    </div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+      <nav class="nav-links">
+        <a href="./about.html">About Us</a>
+        <!-- <a href="./admission.html">Admission</a> -->
+
+
+
+        <div class="dropdown">
+          <button class="dropdown-btn">
+            Courses <span class="arrow">▾</span>
           </button>
 
           <div class="dropdown-menu">
-            <a href="./programs.html">Vocational Program</a>
+            <a href="./short.html">Short Term Courses</a>
+            <a href="./oilandgas.html"> Oil & Gas Engineering</a>
+            <a href="./programs.html">Vocational Courses</a>
             <a href="./iti.html">ITI</a>
+
           </div>
         </div>
-                <a href="./syllbus.html">Syllabus</a>
-                <a href="./events.html">News & Events</a>
-                <a href="./contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
+
+
+        <a href="./Testimonals.html">Testimonals</a>
+        <a href="./events.html">News & Events</a>
+        <a href="./contact.html">Contact</a>
+        <a href="/blog">Blog</a>
+      </nav>
+    </div>
+  </header>
+
 
     <section class="about-hero">
         <div class="overlay"></div>
@@ -52,15 +70,93 @@
     </section>
 
 
+    
+
     <section class="intro-section">
         <p class="subtitle">THE MODERN WAY TO LEARN!</p>
 
         <h2 class="title">
-            SIIT 2.0 is a next-generation EdTech institution with 27+ years of excellence,
-            delivering industry-ready programs through hybrid learning,
-            AI-powered education, and hands-on training.
+           25,000+ students trained, 2000+ students placed globally, 100+ countries wide
         </h2>
+        
     </section>
+
+    <section class="siit-info-section">
+
+  <!-- TITLE -->
+  <h2 class="siit-main-title">VISION AND MISSION</h2>
+
+  <!-- VISION BOX -->
+  <div class="siit-vision-box">
+    <ul>
+      <li>Empower talent through short-term, career-specific skill development</li>
+      <li>Equip students with real-time tools used in modern workplaces</li>
+      <li>Deliver training led by professionals with active industry experience</li>
+      <li>Ensure 100% placement assistance with strong alumni presence</li>
+    </ul>
+  </div>
+
+  <!-- WHY CHOOSE + HIGHLIGHTS -->
+  <div class="siit-grid">
+
+    <!-- LEFT SIDE -->
+    <div class="siit-why">
+      <h3 class="siit-why-head">Why Choose SIIT?</h3>
+
+      <ul class="siit-checklist">
+        <li>Placement Focus</li>
+        <li>Job-Oriented Skillsets</li>
+        <li>Efficient Training</li>
+        <li>Industry Expert Trainers</li>
+        <li>Local Reputation</li>
+      </ul>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="siit-highlights">
+      <h3 class="highlight-title">KEY HIGHLIGHTS</h3>
+
+      <p class="highlight-para">
+        At SIIT, every course is carefully crafted in consultation with
+        industry experts to ensure students gain skills in high demand
+        across global markets. Our training focuses on real-time,
+        hands-on learning so learners become workplace-ready with
+        confidence and technical expertise.
+      </p>
+
+      <!-- FEATURE PILLS -->
+      <div class="siit-features">
+
+        <div class="feature-pill">
+          <span>🎯</span>
+          100% Job-oriented training
+        </div>
+
+        <div class="feature-pill">
+          <span>⏰</span>
+          Daily 3 hours classes – flexible
+        </div>
+
+        <div class="feature-pill">
+          <span>🛠️</span>
+          Practical & hands-on training
+        </div>
+
+        <div class="feature-pill">
+          <span>🏠</span>
+          Free accommodation
+        </div>
+
+        <div class="feature-pill">
+          <span>📈</span>
+          Placement support & career guidance
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
 
 
     <section class="about-compact">
@@ -183,7 +279,7 @@
             <!-- BRAND -->
             <div class="footer-col">
                 <div class="logo">
-                    <span>SI</span>IT
+                    <img src="./images/SIIT LOGO White.png" alt="" width="80px">
                 </div>
                 <p>
                     "Learn, Grow, Achieve: The SIIT Way"
@@ -213,7 +309,7 @@
             <div class="footer-col">
                 <h3>Courses</h3>
                 <ul class="footer-links">
-                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Courses</a></li>
                     <li><a href="#">Admission</a></li>
                     <li><a href="#">Syllabus</a></li>
                     <li><a href="#">News & Events</a></li>
@@ -261,7 +357,7 @@
     </a>
 </div>
 
-    <script src="./script.js"></script>
+    <script defer src="./nav.js"></script>
 </body>
 
 </html>

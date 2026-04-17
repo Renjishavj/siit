@@ -9,34 +9,51 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-        <header class="header">
-  <div class="nav-container">
-    <div class="logo">
-      <a href="./index.html"><span>SI</span>IT</a>
+ <header class="header">
+   
+    <div class="nav-container">
+      <!-- <div class="logo" style="visibility: hidden;">
+        <a href="#"><span>SI</span>IT</a>
+
+      </div> -->
+
+       <div class="nav-prim">
+      <a href="./index.html" class="logo-link">
+        <img src="./images/siit.png" alt="SIIT Logo">
+      </a>
     </div>
 
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
 
-    <nav class="nav-links">
-      <a href="./about.html">About</a>
-      <a href="./admission.html">Admission</a>
-     <div class="dropdown">
-          <button class="dropdown-btn" onclick="toggleDropdown(event)">
-            Programs <span class="arrow">▾</span>
+      <nav class="nav-links">
+        <a href="./about.html">About Us</a>
+        <!-- <a href="./admission.html">Admission</a> -->
+
+
+
+        <div class="dropdown">
+          <button class="dropdown-btn">
+            Courses <span class="arrow">▾</span>
           </button>
 
           <div class="dropdown-menu">
-            <a href="./programs.html">Vocational Program</a>
+            <a href="./short.html">Short Term Courses</a>
+            <a href="./oilandgas.html"> Oil & Gas Engineering</a>
+            <a href="./programs.html">Vocational Courses</a>
             <a href="./iti.html">ITI</a>
+
           </div>
         </div>
-      <a href="./syllbus.html">Syllabus</a>
-      <a href="./events.html">News & Events</a>
-      <a href="./contact.html">Contact</a>
-    </nav>
-  </div>
-</header>
+
+
+        <a href="./Testimonals.html">Testimonals</a>
+        <a href="./events.html">News & Events</a>
+        <a href="./contact.html">Contact</a>
+        <a href="/blog">Blog</a>
+      </nav>
+    </div>
+  </header>
 
 <section class="iti-hero">
         <div class="overlay"></div>
@@ -62,11 +79,22 @@ SIIT 2.0: Empowering Students with Industry-Ready Skills in ITI Trades
         designed to equip students with industry-ready skills and hands-on expertise.
       </p>
 
-      <h3>Available ITI Trades</h3>
-      <div class="trade-list">
-        <div class="trade-card">Instrument Mechanic</div>
-        <div class="trade-card">Instrument Mechanic (Chemical Plant)</div>
-        <div class="trade-card">Electronic Mechanic</div>
+      <h3 style="margin-top: 30px; font-size: 1.8rem; color: #1e3a8a;">Available ITI Trades</h3>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin: 20px 0 30px 0;">
+        <div style="background: #fff; padding: 25px 20px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid #ff5a1f; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.3s ease;">
+            <h4 style="font-size: 1.15rem; color: #222; margin-bottom: 20px; line-height: 1.4; font-weight: 600;">Instrument Mechanic</h4>
+            <span style="align-self: flex-start; padding: 6px 14px; background: #fff0eb; color: #ff5a1f; border-radius: 20px; font-size: 0.85rem; font-weight: 700; display: inline-flex; align-items: center; gap: 5px;"><i class="fa-solid fa-certificate"></i> NSQF-4</span>
+        </div>
+        
+        <div style="background: #fff; padding: 25px 20px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid #ff5a1f; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.3s ease;">
+            <h4 style="font-size: 1.15rem; color: #222; margin-bottom: 20px; line-height: 1.4; font-weight: 600;">Instrument Mechanic <br><span style="font-size: 0.95rem; color: #666; font-weight: normal;">(Chemical Plant)</span></h4>
+            <span style="align-self: flex-start; padding: 6px 14px; background: #fff0eb; color: #ff5a1f; border-radius: 20px; font-size: 0.85rem; font-weight: 700; display: inline-flex; align-items: center; gap: 5px;"><i class="fa-solid fa-certificate"></i> NSQF-4</span>
+        </div>
+        
+        <div style="background: #fff; padding: 25px 20px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); border-bottom: 4px solid #ff5a1f; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.3s ease;">
+            <h4 style="font-size: 1.15rem; color: #222; margin-bottom: 20px; line-height: 1.4; font-weight: 600;">Electronic Mechanic</h4>
+            <span style="align-self: flex-start; padding: 6px 14px; background: #fff0eb; color: #ff5a1f; border-radius: 20px; font-size: 0.85rem; font-weight: 700; display: inline-flex; align-items: center; gap: 5px;"><i class="fa-solid fa-certificate"></i> NSQF-4</span>
+        </div>
       </div>
 
       <div class="program-info">
@@ -120,14 +148,44 @@ SIIT 2.0: Empowering Students with Industry-Ready Skills in ITI Trades
   </div>
 </section>
 
+<section class="og-acc-section">
 
+  <div class="og-acc-container">
+
+    <!-- CENTER HEADING -->
+    <h2 class="og-acc-title">Our Accreditation</h2>
+
+    <!-- LOGOS -->
+    <div class="og-acc-logos">
+
+      <div class="og-acc-item">
+        <img src="./images/nsdc.png" alt="NSDC">
+      </div>
+
+      <div class="og-acc-item">
+        <img src="./images/skillindia.png" alt="Skill India">
+      </div>
+
+      <div class="og-acc-item">
+        <img src="./images/global.png" alt="Glocal University">
+      </div>
+
+      <div class="og-acc-item">
+        <img src="./images/asian.png" alt="Asian International University">
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
     <footer class="footer">
   <div class="footer-container">
 
     <!-- BRAND -->
     <div class="footer-col">
        <div class="logo">
-      <span>SI</span>IT
+       <img src="./images/SIIT LOGO White.png" alt="" width="80px">
     </div>
       <p>
       "Learn, Grow, Achieve: The SIIT Way"
@@ -156,7 +214,7 @@ SIIT 2.0: Empowering Students with Industry-Ready Skills in ITI Trades
     <div class="footer-col">
       <h3>Courses</h3>
       <ul class="footer-links">
-        <li><a href="#">Programs</a></li>
+        <li><a href="#">Courses</a></li>
         <li><a href="#">Admission</a></li>
         <li><a href="#">Syllabus</a></li>
         <li><a href="#">News & Events</a></li>
@@ -203,6 +261,6 @@ SIIT 2.0: Empowering Students with Industry-Ready Skills in ITI Trades
     </a>
 </div>
 
-    <script src="./script.js"></script>
+    <script defer src="./nav.js"></script>
 </body>
 </html>

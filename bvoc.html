@@ -10,34 +10,52 @@
 </head>
 <body>
 
-    <header class="header">
-  <div class="nav-container">
-    <div class="logo">
-      <a href="./index.html"><span>SI</span>IT</a>
+  <header class="header">
+   
+    <div class="nav-container">
+      <!-- <div class="logo" style="visibility: hidden;">
+        <a href="#"><span>SI</span>IT</a>
+
+      </div> -->
+
+       <div class="nav-prim">
+      <a href="./index.html" class="logo-link">
+        <img src="./images/siit.png" alt="SIIT Logo">
+      </a>
     </div>
 
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
 
-    <nav class="nav-links">
-      <a href="./about.html">About</a>
-      <a href="./admission.html">Admission</a>
-     <div class="dropdown">
-          <button class="dropdown-btn" onclick="toggleDropdown(event)">
-            Programs <span class="arrow">▾</span>
+      <nav class="nav-links">
+        <a href="./about.html">About Us</a>
+        <!-- <a href="./admission.html">Admission</a> -->
+
+
+
+        <div class="dropdown">
+          <button class="dropdown-btn">
+            Courses <span class="arrow">▾</span>
           </button>
 
           <div class="dropdown-menu">
-            <a href="./programs.html">Vocational Program</a>
+            <a href="./short.html">Short Term Courses</a>
+            <a href="./oilandgas.html"> Oil & Gas Engineering</a>
+            <a href="./programs.html">Vocational Courses</a>
             <a href="./iti.html">ITI</a>
+
           </div>
         </div>
-      <a href="./syllbus.html">Syllabus</a>
-      <a href="./events.html">News & Events</a>
-      <a href="./contact.html">Contact</a>
-    </nav>
-  </div>
-</header>
+
+
+        <a href="./Testimonals.html">Testimonals</a>
+        <a href="./events.html">News & Events</a>
+        <a href="./contact.html">Contact</a>
+        <a href="/blog">Blog</a>
+      </nav>
+    </div>
+  </header>
+
 <section class="bvoc-hero">
         <div class="overlay"></div>
 
@@ -132,7 +150,7 @@
     <!-- BRAND -->
     <div class="footer-col">
        <div class="logo">
-      <span>SI</span>IT
+       <img src="./images/SIIT LOGO White.png" alt="" width="80px">
     </div>
       <p>
       "Learn, Grow, Achieve: The SIIT Way"
@@ -161,7 +179,7 @@
     <div class="footer-col">
       <h3>Courses</h3>
       <ul class="footer-links">
-        <li><a href="#">Programs</a></li>
+        <li><a href="#">Courses</a></li>
         <li><a href="#">Admission</a></li>
         <li><a href="#">Syllabus</a></li>
         <li><a href="#">News & Events</a></li>
@@ -207,6 +225,6 @@
     </a>
 </div>
 
-    <script src="./script.js"></script>
+    <script defer src="./nav.js"></script>
 </body>
 </html>

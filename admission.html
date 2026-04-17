@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,8 @@
      <link rel="stylesheet" href="style.css" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      
 </head>
 <body>
     <header class="header">
@@ -23,7 +25,7 @@
                 <a href="#">Admission</a>
               <div class="dropdown">
           <button class="dropdown-btn" onclick="toggleDropdown(event)">
-            Programs <span class="arrow">▾</span>
+            Courses <span class="arrow">▾</span>
           </button>
 
           <div class="dropdown-menu">
@@ -93,7 +95,7 @@
 <section class="contact">
   <div class="contact-container">
 
-    <!-- LEFT : MAP -->
+   
     <div class="contact-map">
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.613240675387!2d76.453024!3d9.782979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0878754141cf99%3A0x35627578ea7b327c!2sSIIT%20Building%2C%20Thalayolaparambu!5e0!3m2!1sen!2sin!4v1700000000000"
@@ -104,7 +106,6 @@
 </div>
 
 
-    <!-- RIGHT : FORM -->
     <div class="contact-form">
       <h2>Open Campus</h2>
       <p>
@@ -161,55 +162,36 @@ SIIT Building, SH15, Thalayolaparambu, Kerala 686605
 </section>
 
 <section class="form-section compact">
-<form class="contact-form"
-      action="https://formspree.io/f/mlglwvry"
-      method="POST">
+  <form class="contact-form">
 
-  <input type="hidden" name="_subject" value="New Student Enquiry">
+  
+    <input type="text" placeholder="Name" class="full-width" required />
 
-  <div class="form-row">
-    <input type="text" name="firstName" placeholder="First Name" required />
-    <input type="text" name="lastName" placeholder="Last Name" required />
-  </div>
+    
+    <div class="form-row">
+      <input type="tel" placeholder="Phone" required />
+      <input type="email" placeholder="Email" required />
+    </div>
 
-  <input type="text" name="address" placeholder="Address" class="full-width" required />
+   
+    <input type="text" placeholder="City" class="full-width" required />
 
-  <div class="form-row">
-    <input type="tel" name="phone" placeholder="Phone" required />
-    <input type="email" name="email" placeholder="Email" required />
-  </div>
 
-  <div class="form-row">
-    <select name="grade" required>
-      <option value="">Grade</option>
-      <option>8</option>
-      <option>9</option>
-      <option>10</option>
-      <option>11</option>
-      <option>12</option>
-    </select>
+    <textarea placeholder="Message" rows="4" class="full-width"></textarea>
 
-    <select name="gender">
-      <option value="">Gender</option>
-      <option>Male</option>
-      <option>Female</option>
-      <option>Other</option>
-    </select>
-  </div>
+   
+   <div class="g-recaptcha" data-sitekey="6LdVJncsAAAAAOs3EGBfH-HPKE7GGmgVV2VIwgOQ"></div>
 
-  <textarea name="comments" placeholder="Comments" rows="3"></textarea>
 
-  <button type="submit">Submit</button>
+    <button type="submit">Submit</button>
 
-</form>
-
+  </form>
 </section>
 
 
      <footer class="footer">
         <div class="footer-container">
 
-            <!-- BRAND -->
             <div class="footer-col">
                 <div class="logo">
                     <span>SI</span>IT
@@ -226,9 +208,7 @@ SIIT Building, SH15, Thalayolaparambu, Kerala 686605
 
                 </div>
             </div>
-
-            <!-- ADDRESS -->
-            <div class="footer-col">
+  <div class="footer-col">
                 <h3>Address</h3>
                 <ul class="footer-list">
                     <li>📍 2 nd Floor, SIIT Building, SH15, Near Govt. Hospital,Thalayolaparambu, Kottayam,Kerala 686605
@@ -238,11 +218,10 @@ SIIT Building, SH15, Thalayolaparambu, Kerala 686605
                 </ul>
             </div>
 
-            <!-- COURSES -->
             <div class="footer-col">
                 <h3>Courses</h3>
                 <ul class="footer-links">
-                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Courses</a></li>
                     <li><a href="#">Admission</a></li>
                     <li><a href="#">Syllabus</a></li>
                     <li><a href="#">News & Events</a></li>
@@ -250,12 +229,12 @@ SIIT Building, SH15, Thalayolaparambu, Kerala 686605
                 </ul>
             </div>
 
-            <!-- RECENT POSTS -->
+           
             <div class="footer-col">
                 <h3>Recent Posts</h3>
 
                 <div class="post">
-                    <!-- <img src="./images/post1.jpg" alt=""> -->
+                    
                     <div>
                         <a href="#">Learn with Joy: Happy Tuition Services Now Available!</a>
                         <span>📅 Monday, 2 June 2025</span>
@@ -263,7 +242,7 @@ SIIT Building, SH15, Thalayolaparambu, Kerala 686605
                 </div>
 
                 <div class="post">
-                    <!-- <img src="./images/post2.jpg" alt=""> -->
+                  
                     <div>
                         <a href="#">"SIIT's Learn 2 Win Revolutionizes Education in Kerala"</a>
                         <span>📅 Thursday, 1 May 2025</span>
@@ -279,7 +258,7 @@ SIIT Building, SH15, Thalayolaparambu, Kerala 686605
     </footer>
 
      
-<!-- Floating Contact Buttons -->
+
 <div class="floating-contact">
     <a href="tel:+917902799418" class="call-btn" title="Call Us">
         <i class="fa-solid fa-phone"></i>
@@ -290,6 +269,7 @@ SIIT Building, SH15, Thalayolaparambu, Kerala 686605
     </a>
 </div>
 
-    <script src="./script.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script defer src="./script.js"></script>
 </body>
-</html>
+</html> -->
